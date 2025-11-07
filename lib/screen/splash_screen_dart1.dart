@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'splash_screen_dart2.dart';
 
 class SplashScreenDart1 extends StatelessWidget {
   const SplashScreenDart1({super.key});
@@ -73,6 +74,34 @@ class SplashScreenDart1 extends StatelessWidget {
                         ),
                       ],
                     ),
+                    SizedBox(height: 30),
+                    Container(
+                      margin: EdgeInsets.only(left: 20, right: 20),
+                      child: SizedBox(
+                        height: 25 ,
+                        width: double.infinity,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            //next todo
+                            Navigator.push(context,
+                             MaterialPageRoute(builder: (context) => SplashScreenDart2()),
+                             );
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.blueGrey
+                          ),
+                      
+                          child: Text('Lanjut coy', 
+                          style: TextStyle(
+                            fontSize: 15,
+                          color: Colors.white
+                          ),
+                          ),
+                          
+                          ),
+                      ),
+                    ), 
+                    Spacer(),
             ],
           ),
         ),
