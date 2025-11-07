@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'screen/splash_screen_dart1.dart';
 
+
+void main(){
+  runApp(MyApp());
+}
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
