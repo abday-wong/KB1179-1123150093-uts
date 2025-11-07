@@ -3,10 +3,7 @@ Nama    : Muhammad abday abdul hafidz
 Nim     : 1123150093
 
 
-![Banner Project] (assets/images/page1.png)
-![Banner Project] (assets/images/page2.png)
-![Banner Project] (assets/images/page13.png)
-![Banner Project] (assets/images/login.png)
+
 
 A new Flutter project.
 
