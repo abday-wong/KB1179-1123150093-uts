@@ -4,9 +4,9 @@ Nim     : 1123150093
 
 Langkah menjalankan project Flutter:
 
-Langkah 1: Buka terminal di VS Code
-Langkah 2: Ketik cd nama_folder_project di terminal untuk masuk ke folder project kamu
-Langkah 3: Ketik flutter pub get untuk mendownload semua package yang dibutuhkan
+Langkah 1: Buka terminal di VS Code<br>
+Langkah 2: Ketik cd nama_folder_project di terminal untuk masuk ke folder project kamu<br>
+Langkah 3: Ketik flutter pub get untuk mendownload semua package yang dibutuhkan<br>
 Langkah 4: Ketik flutter run untuk menjalankan project Flutternya
 
 
