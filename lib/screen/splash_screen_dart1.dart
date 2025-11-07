@@ -33,7 +33,14 @@ class SplashScreenDart1 extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                     ),
-                    
+                    SizedBox(height: 30),
+                    Text('Barang siapa yang rajin solat\nistrinya ada wong\nada wong nya 5',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
             ],
           ),
         ),
