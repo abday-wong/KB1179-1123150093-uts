@@ -41,6 +41,38 @@ class SplashScreenDart1 extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                     ),
+                    SizedBox(height: 30),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          width: 5,
+                          height: 5,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.blueGrey,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          width: 5,
+                          height: 5,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.grey[100]!,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          width: 5,
+                          height: 5,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.grey[100]!,
+                          ),
+                        ),
+                      ],
+                    ),
             ],
           ),
         ),
