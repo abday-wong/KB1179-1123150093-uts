@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_dart2.dart';
+import 'login.dart';
+import '../main.dart';
 
-class SplashScreenDart1 extends StatelessWidget {
-  const SplashScreenDart1({super.key});
+class SplashScreenDart3 extends StatelessWidget {
+  const SplashScreenDart3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class SplashScreenDart1 extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.blueGrey,
                       image: DecorationImage(image: 
-                      AssetImage("assets/images/jarvis.png"),
+                      AssetImage("assets/images/efwan.png"),
                       fit: BoxFit.cover
                       ),
                       ),
@@ -35,7 +36,7 @@ class SplashScreenDart1 extends StatelessWidget {
                     ),
                     ),
                     SizedBox(height: 30),
-                    Text('Barang siapa yang rajin solat\nistrinya ada wong\nada wong nya 5',
+                    Text('Barang siapa yang rajin zakat\nistrinya minji\nminji nya ada 5',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
@@ -51,25 +52,25 @@ class SplashScreenDart1 extends StatelessWidget {
                           height: 5,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
+                            color: Colors.grey,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          width: 5,
+                          height: 5,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.grey,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          width: 5,
+                          height: 5,
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
                             color: Colors.blueGrey,
-                          ),
-                        ),
-                        SizedBox(width: 10),
-                        Container(
-                          width: 5,
-                          height: 5,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: Colors.grey[100]!,
-                          ),
-                        ),
-                        SizedBox(width: 10),
-                        Container(
-                          width: 5,
-                          height: 5,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: Colors.grey[100]!,
                           ),
                         ),
                       ],
@@ -84,7 +85,7 @@ class SplashScreenDart1 extends StatelessWidget {
                           onPressed: () {
                             //next todo
                             Navigator.push(context,
-                             MaterialPageRoute(builder: (context) => SplashScreenDart2()),
+                             MaterialPageRoute(builder: (context) => Login()),
                              );
                           },
                           style: ElevatedButton.styleFrom(

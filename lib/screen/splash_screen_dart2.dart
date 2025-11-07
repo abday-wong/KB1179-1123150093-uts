@@ -86,7 +86,7 @@ class SplashScreenDart2 extends StatelessWidget {
                           onPressed: () {
                             //next todo
                             Navigator.push(context,
-                             MaterialPageRoute(builder: (context) => SplashScreenDart2()),
+                             MaterialPageRoute(builder: (context) => SplashScreenDart3()),
                              );
                           },
                           style: ElevatedButton.styleFrom(
