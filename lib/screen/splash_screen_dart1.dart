@@ -19,13 +19,21 @@ class SplashScreenDart1 extends StatelessWidget {
                     height: 250,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.amber,
+                      color: Colors.blueGrey,
                       image: DecorationImage(image: 
-                      AssetImage("assets/images/"),
+                      AssetImage("assets/images/jarvis.png"),
                       fit: BoxFit.cover
                       ),
                       ),
               ),
+              Text('Welcome selamat datang',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
+                    
             ],
           ),
         ),
