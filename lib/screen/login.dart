@@ -86,7 +86,7 @@ class Login extends StatelessWidget {
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                     borderSide: BorderSide(
-                      color: Colors.blue[700]!,
+                      color: Colors.blueGrey,
                       width: 2,
                     ),
                   ),
@@ -100,7 +100,7 @@ class Login extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     "Lupa Password?",
-                    style: TextStyle(color: Colors.blue[700], fontSize: 14),
+                    style: TextStyle(color: Colors.blueGrey),
                   ),
                 ),
               ),
@@ -110,7 +110,7 @@ class Login extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.lightBlue,
+                  backgroundColor: Colors.blueGrey,
                   minimumSize: const Size(double.infinity, 50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -128,7 +128,7 @@ class Login extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Divider(
-                      color: Colors.grey[400],
+                      color: Colors.blueGrey,
                       thickness: 1,
                     ),
                   ),
@@ -138,7 +138,7 @@ class Login extends StatelessWidget {
                   ),
                   Expanded(
                     child: Divider(
-                      color: Colors.grey[400],
+                      color: Colors.blueGrey,
                       thickness: 1,
                     ),
                   ),
@@ -149,7 +149,7 @@ class Login extends StatelessWidget {
               // Tombol Google Login
               OutlinedButton.icon(
                 onPressed: () {},
-                icon: const Icon(Icons.g_mobiledata, color: Colors.red),
+                icon: const Icon(Icons.g_mobiledata, color: Colors.blueGrey),
                 label: const Text(
                   "Login dengan Google",
                   style: TextStyle(color: Colors.black),
@@ -175,7 +175,7 @@ class Login extends StatelessWidget {
                     child: const Text(
                       "Bikin akun",
                       style: TextStyle(
-                        color: Colors.blue,
+                        color: Colors.blueGrey,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
